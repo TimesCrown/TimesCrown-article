@@ -4,11 +4,49 @@ body
     width:78vw;
     margin: 0;
 }
+#backTOTop
+{
+    width: 3rem;
+    display: inline-block;
+    
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+   
+    padding: 0.25rem;
+}
+
+#backTOTop-wrapper
+{
+   
+  position: fixed;
+  
+  right: 1rem;
+  
+  bottom: 1px;
+  
+display: inline-block;
+  
+}
+#backTOTop img 
+{
+    width: 100%;
+}
+.head-h1
+{
+    
+      font-size: 2rem;
+      font-weight: bold;
+      border-bottom: 2px solid #4f0e0e;
+      text-align: center;
+}
 h1
 {
     font-family: 'Encode Sans SC', sans-serif;
-    font-size: 1rem;
+    font-size: xx-large;
     font-weight: bold;
+    text-align: center;
 }
 h4
 {
@@ -21,13 +59,13 @@ li
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     line-height: 25px;
-    font-size: small;
+    font-size: large;
 }
 p
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    font-size: medium;
+    font-size: large;
     line-height: 25px;
 }
 .navBar
@@ -42,11 +80,11 @@ p
     display: inline-block;
     width: 20%;
 }
-.main
+#main
 {
     background-color: white;
     border-radius: 15px;
-    width:97vw;
+    width:100vw;
     margin: 5px 2px;
     padding-right: 3px;
     
@@ -63,8 +101,8 @@ p
 }
 .content
 {
-    text-align: center;
-    padding: 30px 20px;
+    
+    padding: 20px 20px;
 }
 .head
 {
@@ -79,6 +117,27 @@ p
     overflow-y: auto;
     height: 7rem;
 }
+#importantPeople
+{
+    padding-left: 0.5rem;
+    margin-top: 2rem;
+    border-top: 2px solid #4f0e0e;
+    
+}
+#importantPeople h1
+{
+    font-size: 1.25rem;
+    text-align: left;
+    display: inline-block;
+}
+#importantPeople p 
+{
+    font-size: 1rem;
+    margin-top: 0;
+    width: 20rem;
+    
+}
+
 @media (min-width:641px) 
 {
     .main{
@@ -93,7 +152,7 @@ p
 
 }
 
-@media (min-width:1025px)
+@media (min-width:1008px)
 {
     .main
     {
@@ -102,7 +161,7 @@ p
     }
     .main h1
     {
-        font-size: xx-large;
+        
         text-align: center;
     }
     .navBar
@@ -127,12 +186,21 @@ p
         text-align: center;
         font-size: 3rem;;
     }
-    h1 
+    .head-h1
     {
-        font-size: 5rem;
+        font-size: 3.5rem;
     }
     .content ul 
     {
         height: 12rem;
+    }
+    #importantPeople
+    {
+        text-align: center;
+    }
+    #importantPeople p 
+    {
+        text-align: center!important;
+        width: 98vw;
     }
 }
