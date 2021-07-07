@@ -1,0 +1,138 @@
+body
+{
+    background-color: #F5F4F4;
+    width:78vw;
+    margin: 0;
+}
+h1
+{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+h4
+{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 1.20rem;
+    font-weight: bolder;
+}
+li
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: small;
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    line-height: 25px;
+}
+.navBar
+{
+    width:97vw;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+.navBar img
+{
+    display: inline-block;
+    width: 20%;
+}
+.main
+{
+    background-color: white;
+    border-radius: 15px;
+    width:97vw;
+    margin: 5px 2px;
+    padding-right: 3px;
+    
+}
+
+
+.image img
+{
+    width: 80%;
+}
+.image
+{
+    text-align: center;
+}
+.content
+{
+    text-align: center;
+    padding: 30px 20px;
+}
+.head
+{
+    padding: 20px 17px;
+}
+.ul
+{
+    padding-inline-start: 0 !important;
+}
+.content ul 
+{
+    overflow-y: auto;
+    height: 7rem;
+}
+@media (min-width:641px) 
+{
+    .main{
+        padding: 0 2rem;
+        width: 88vw;
+    }
+    .main p, .main li
+    {
+        font-size: large;
+        line-height: 35px;
+    }
+
+}
+
+@media (min-width:1025px)
+{
+    .main
+    {
+        padding: 2rem 8rem;
+        width: 83vw;
+    }
+    .main h1
+    {
+        font-size: xx-large;
+        text-align: center;
+    }
+    .navBar
+    {
+        width: 99vw;
+    }
+    .navBar img
+    {
+        width: 10rem;
+    }
+    .image img 
+    {
+        width: 25rem;
+    }
+    li
+    {
+        margin: 0 auto;
+        width: 40rem;
+    }
+    h4 
+    {
+        text-align: center;
+        font-size: 3rem;;
+    }
+    h1 
+    {
+        font-size: 5rem;
+    }
+    .content ul 
+    {
+        height: 12rem;
+    }
+}
