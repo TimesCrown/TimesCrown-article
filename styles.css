@@ -203,4 +203,8 @@ p
         text-align: center!important;
         width: 98vw;
     }
+    .content
+    {
+        padding: 2rem 10rem;
+    }
 }
